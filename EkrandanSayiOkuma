@@ -1,0 +1,16 @@
+
+package ekranadegiskenindegerinibasankod;
+import java.util.Scanner;
+public class Ekranadegiskenindegerinibasankod {
+
+
+    public static void main(String[] args) {
+      
+       System.out.println("ekrana bir sayı girin:");
+       Scanner sayi=new Scanner(System.in);
+       String x=sayi.nextLine();
+       System.out.println("Girdiğiniz sayı:"+x);
+       
+    }
+    
+}
